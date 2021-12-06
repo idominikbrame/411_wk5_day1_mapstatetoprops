@@ -23,9 +23,9 @@ Clone this repo and run `npm i` and then `npm start`
 
 #### Project Work
 
-* Let's start with the `Home` component. Navigate to it and notice that it is importing `cars.json` and mapping through that to display the cars. We want to attach "cars" to the "props" of this component so that it can be re-used. Under the "containers" folder, create a new file called `Home.js`.
+* Let's start with the `Home` component. Navigate to it and notice that it is importing `cars.json` and mapping through that to display the cars. We want to attach "cars" to the "props" of this component so that it can be re-used. Under the "containers" folder, create a new file called `home.js`.
 
-* Inside `Home.js` do the following:
+* Inside `home.js` do the following:
     * Import "connect" from "react-redux"
     * Import the `Home` component from the components folder
     * Write a `mapStateToProps` function that maps "cars" to "state.cars"
